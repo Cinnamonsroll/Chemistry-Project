@@ -34,7 +34,7 @@ export default function Home() {
     }
   }, [])
   return (
-    <div className="w-full h-screen flex justify-center items-center grid-cols-3">
+    <div className="w-full h-screen flex justify-center items-center grid-cols-3 lg:sm-cols-1 gap-y-4">
       <div className="h-full w-full flex justify-center items-center flex-col gap-4" >
         <div className="w-6/12 h-[1px] border-slate-600 border-dashed border-2"></div>
         <div className="w-6/12">
